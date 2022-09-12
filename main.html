@@ -2,48 +2,26 @@
 <html>
 
 <head>
-    <style>
-        #login {
-            border-radius: 25px;
-            border: 2px solid blue;
-            padding: 20px;
-            width: 300px;
-            height: 300px;
-            margin: auto;
-            margin-top: 200px;
-        }
-
-        #username {
-            margin-top: 20px;
-        }
-
-        #password {
-            margin-top: 10px;
-        }
-
-        #button {
-            margin-top: 10px;
-            margin-left: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div id=login>
-        <div id=username>
-            Username:
-            <input placeholder="Username">
+        <div id='username'>
+            <label>Username:</label>
+            <input id='username' type='text' placeholder="Username">
         </div>
-        <div id=password>
-            Password:
-            <input placeholder="Password">
+        <div id="password">
+            <label>Password:</label>
+            <input id='password' type=password placeholder="Password">
         </div>
-        <div id=button>
-            <button style="width: 100px;">Log in</button>
+        <div id="button">
+            <button onclick="login()">Log in</button>
         </div>
     </div>
 
-
+    <script src="login.js">
+    </script>
 </body>
 
 </html>
