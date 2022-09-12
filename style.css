@@ -25,15 +25,15 @@ button {
     margin-top: 200px;
 }
 
-#username {
+#usernameDiv {
     margin-top: 20px;
 }
 
-#password {
+#passwordDiv {
     margin-top: 10px;
 }
 
-#button {
+#buttonDiv {
     padding: 20px;
     margin-left: 40px;
 }

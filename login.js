@@ -5,12 +5,12 @@ function login() {
         alert('Please input username')
     } else if (username.length < 3) {
         alert('Username must be at least 3 characters')
-    } if (!password) {
+    } else if (!password) {
         alert('Please input password')
     } else if (password.length < 3) {
         alert('Password must be at least 3 characters')
     }
-    if(username === 'admin' && password === 'root'){
+    else if (username === 'admin' && password === 'root') {
         location.replace('home.html')
     }
 
